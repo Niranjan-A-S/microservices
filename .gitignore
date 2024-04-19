@@ -5,3 +5,5 @@ yarn.log*
 dist
 
 .env*
+
+TODO.md
