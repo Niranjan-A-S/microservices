@@ -6,6 +6,7 @@ import { initializeServer } from './server';
 (async () => {
 
     await establishDatabaseConnection();
+
     const app = express();
     await initializeServer(app);
 
