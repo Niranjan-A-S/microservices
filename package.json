@@ -1,0 +1,10 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": " This is a project implementing the microservices architecture using node JS",
+  "main": "index.js",
+  "repository": "https://github.com/Niranjan-A-S/microservices",
+  "author": "Niranjan A S",
+  "license": "MIT",
+  "private": "true"
+}
