@@ -1,7 +1,7 @@
 {
   "name": "node-architecture",
   "version": "1.0.0",
-  "description": "This is a project demonstrating the microservices and monolithic architecture using node JS",
+  "description": " This is a project implementing the monolithic architecture using REST APIs",
   "main": "index.js",
   "repository": "https://github.com/Niranjan-A-S/microservices",
   "author": "Niranjan A S",
