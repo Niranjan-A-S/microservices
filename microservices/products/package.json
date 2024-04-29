@@ -1,0 +1,27 @@
+{
+    "name": "products-service",
+    "version": "1.0.0",
+    "description": " Products Service",
+    "main": "index.js",
+    "repository": "https://github.com/Niranjan-A-S/node-architecure",
+    "author": "Niranjan A S",
+    "license": "MIT",
+    "private": "true",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node -r ts-node/register src/index.ts",
+        "build": "tsc",
+        "start": "yarn build && cross-env NODE_ENV=production node dist/index"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.12.7",
+        "cross-env": "^7.0.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mongoose": "^8.3.2"
+    }
+}
